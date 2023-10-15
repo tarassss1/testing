@@ -49,7 +49,7 @@ enemies = []
 for e in range(11):
     x = random.randint(0, 450)
     y = 20
-    enemy = Picture('Taras.png', x, y, 20, 20)
+    enemy = Picture('name.png', x, y, 20, 20)
     enemies.append(enemy)
 
 # Створення пустого списку для збереження пуль
@@ -59,7 +59,7 @@ bullets = []
 move_r = False
 move_l = False
 game = True
-ball = Picture('Taras.png',200,400,50,50)
+ball = Picture('name.png',200,400,50,50)
 clock = pygame.time.Clock()
 
 while game:
